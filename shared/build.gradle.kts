@@ -84,7 +84,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.plcoding.contactscomposemultiplatform"
+    namespace = "com.rodrigoguerrero.kmm.template.android"
     compileSdk = 33
     defaultConfig {
         minSdk = 24
@@ -96,8 +96,8 @@ android {
 }
 
 sqldelight {
-    database("ContactDatabase") {
-        packageName = "com.plcoding.contactscomposemultiplatform.database"
+    database("AppDatabase") {
+        packageName = "com.rodrigoguerrero.kmm.template.android.database"
         sourceFolders = listOf("sqldelight")
     }
 }
